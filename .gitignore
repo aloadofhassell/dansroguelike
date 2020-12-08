@@ -1,0 +1,6 @@
+pyvenv.cfg
+requirements.txt
+/__pycache__
+/Include
+/Lib
+/Scripts
