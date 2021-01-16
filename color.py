@@ -20,3 +20,6 @@ health_recovered = (0x0, 0xFF, 0x0) # Mid Green
 bar_text = white
 bar_filled = (0x0, 0x60, 0x0) # Dark Green
 bar_empty = (0x40, 0x10, 0x10) # Dark Red
+
+menu_title = (255, 255, 63) # Yellow
+menu_text = white

@@ -5,3 +5,6 @@ pyvenv.cfg
 /Scripts
 .*
 *.pyc
+todo.txt
+# Saved games
+*.sav
