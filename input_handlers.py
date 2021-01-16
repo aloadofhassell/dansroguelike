@@ -236,15 +236,12 @@ class LevelUpEventHandler(AskUserEventHandler):
     def on_render(self, console: tcod.Console) -> None:
         super().on_render(console)
 
-        if self.engine.player.x <= 30:
-            x = 40
-        else:
-            x = 0
+        x = 0
 
         console.draw_frame(
-            x=x,
+            x=0,
             y=0,
-            width=35,
+            width=40,
             height=8,
             title=self.TITLE,
             clear=True,
